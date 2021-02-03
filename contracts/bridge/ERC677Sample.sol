@@ -1,6 +1,6 @@
 pragma solidity =0.6.6;
 import "@openzeppelin/contracts/token/ERC20/ERC20Pausable.sol";
-import "./ERC677.sol"
+import "./ERC677.sol";
 
 contract ERC677Template is ERC20Pausable,ERC677Token {
     address factory;
